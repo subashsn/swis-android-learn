@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <co.swisapp.loginmapload.UI.CustomViews.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button_camera_flash"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/ic_flash_off_white_24dp"/>
+
+            <ImageButton
+                android:id="@+id/button_camera_reverse"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/ic_switch_camera_white_24dp"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+    <co.swisapp.loginmapload.UI.CustomViews.RecordButton
+        android:id="@+id/button_video_record"
+        android:layout_width="@dimen/main_video_recording_button"
+        android:layout_height="@dimen/main_video_recording_button"
+        android:layout_margin="@dimen/main_video_margin_record_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageButton
+            android:id="@+id/button_camera_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_map_white_24dp"/>
+
+        <ImageButton
+            android:id="@+id/button_camera_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingRight="40dp"
+            android:src="@drawable/ic_perm_identity_white_24dp"
+            android:background="?android:selectableItemBackground"
+            android:layout_gravity="right|center_vertical" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

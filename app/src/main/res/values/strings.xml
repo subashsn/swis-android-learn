@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SWIS</string>
+    <string name="camera_error">Not supported.</string>
+    <string name="storage_permission_request">SWIS needs access to your storage to get Videos to upload.</string>
+    <string name="permission_request">This app needs permission for camera and microphone to do basic functionality</string>
+    <string name="location_permission_request">SWIS needs permission to access location, to place you on the map!</string>
+    <string name="google_maps_key">AIzaSyASLb0UmLiX6xL763M3UGeihX2kjpq86Yk</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
